@@ -327,8 +327,8 @@ header nav a{
 
    
 
-    #intro .avatar img{
-        transform: none;
+     #intro .avatar img{
+        transform: translateX(-90px);
     }
 
     #intro .content{
