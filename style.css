@@ -317,7 +317,13 @@ header nav a{
     header nav a{
         margin: none;
         font-size: small;
+        height: 30px;
     }
+    .tab{
+        
+        height: 118vh;
+    }
+    
 
    
 
@@ -330,9 +336,15 @@ header nav a{
     }
 
     #intro .content .name{
+        font-size: 3em;
+    }
+    #intro .content .job{
         font-size: 4em;
     }
-
+    
+    #intro .content .des{
+        font-size: 2em;
+    }
     #intro .content i{
         position: unset;
     }
@@ -391,3 +403,12 @@ header nav a{
         );
     }
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 equal-width columns */
+    gap: 5px; /* Spacing between columns */
+}
+
+
